@@ -3,4 +3,11 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context="com.lynnik.cannongame.MainActivityFragment"/>
+  tools:context="com.lynnik.cannongame.MainActivityFragment">
+
+  <com.lynnik.cannongame.CannonView
+    android:id="@+id/cannonView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</FrameLayout>
